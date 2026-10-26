@@ -8,11 +8,11 @@ function App() {
     <div className="page">
       <header className="header">
         <div className="logo">DevBlog</div>
-        <div className="nav">
+        <nav className="nav">
           <a className="nav-link">Accueil</a>
           <a className="nav-link">Articles</a>
           <a className="nav-link">Contact</a>
-        </div>
+        </nav>
       </header>
 
       <main className="main">
