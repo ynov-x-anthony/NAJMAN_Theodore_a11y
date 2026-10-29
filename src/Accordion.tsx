@@ -8,8 +8,7 @@ export default function Accordion({ title, children }: Props) {
 
   return (
     <div className="accordion">
-      <button
-        className="accordion-trigger"
+      <button className="accordion-trigger"
         aria-expanded={expanded}
         aria-controls={panelId}
         onClick={() => setExpanded(!expanded)}
